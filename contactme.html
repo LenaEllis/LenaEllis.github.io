@@ -14,20 +14,20 @@
     #sbutton { color: whitesmoke; background-color: blueviolet; 
     font-size: 18px; text-align: center; }
 
-    
+    .rqd{color: red; font-weight: normal; }
 </style>
 <body>
     <h1>Contact Me</h1>
     <form action="#" method="post">
         <div>
-            <label for="myname">Name: </label>
+            <label for="myname">Name: <span class="rqd">*</span></label>
             <input type="text" name="myname" id="myname" required><br/>
-            <label for="subject">Subject: </label> 
+            <label for="subject">Subject:<span class="rqd">*</span> </label> 
             <input type="text" name="subject" id="subject" placeholder="CS 101" required><br/>
             <textarea name="tbody" placeholder="Enter Message..." id="tbody" required>
                
             </textarea><br/>
-            <label for= "attach">Attachments: </label><br/>
+            <label for= "attach">Attachments:<span class="rqd">*</span> </label><br/>
             <input type="file" name="attach" id="attach"/><br/>
             <input type="submit" value="submit" id="sbutton"/>
         </div>
