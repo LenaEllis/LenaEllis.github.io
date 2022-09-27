@@ -31,12 +31,14 @@
             <input type="file" name="attach" id="attach"/><br/>
             <label for="priority">priority: </label><br/>
             <select name="priority" required><span class="rqd">*</span>
+                <option disabled selected value>--</option>
                 <option value="low">low</option>
                 <option value="medium">medium</option>
                 <option value="high">high</option>
                 <option value="crit">crit</option>
 
             </select><br/><br/>
+            <input type="radio" name="flwup" id="flwup" value="yes"/>yes
             <input type="submit" value="submit" id="sbutton"/>
         </div>
     </form>
