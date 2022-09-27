@@ -20,7 +20,7 @@
     <h1>Contact Me</h1>
     <form action="#" method="post">
         <div>
-            <label for="myname">Name: <span class="rqd">*</span></label>
+            <label for="myname">Name: <span class="rqd">*</span>*</span></label>
             <input type="text" name="myname" id="myname" required><br/>
             <label for="subject">Subject:<span class="rqd">*</span> </label> 
             <input type="text" name="subject" id="subject" placeholder="CS 101" required><br/>
@@ -30,7 +30,7 @@
             <label for= "attach">Attachments:<span class="rqd">*</span> </label><br/>
             <input type="file" name="attach" id="attach"/><br/>
             <label for="priority">priority: </label><br/>
-            <select name="priority">
+            <select name="priority" required><span class="rqd">*</span>
                 <option value="low">low</option>
                 <option value="medium">medium</option>
                 <option value="high">high</option>
