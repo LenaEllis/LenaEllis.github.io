@@ -2,4 +2,4 @@ img{ text-align: left;}
 body{background-image: url(https://images.unsplash.com/photo-1614680376573-df3480f0c6ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80)}
 p{font-size: 11pt; color: whitesmoke; text-decoration-color: whitesmoke; }
 th{color: whitesmoke; font-size: 15pt;}
-{border-radius: }
+table{border:1px; color: palevioletred; border-collapse: collapse; }
