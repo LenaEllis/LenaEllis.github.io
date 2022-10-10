@@ -3,4 +3,4 @@ body{background-image: url(https://images.unsplash.com/photo-1614680376573-df348
 p{font-size: 11pt; color: whitesmoke; text-decoration-color: whitesmoke; }
 th{color: whitesmoke; font-size: 15pt;}
 h2{color: whitesmoke; }
-td,th,tr{border: 1px; border-color: whitesmoke;}
+td,th,tr{border: 1px; border-color: whitesmoke; border-collapse: collapse; border-radius: 2cm; }
