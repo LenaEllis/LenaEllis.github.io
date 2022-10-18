@@ -3,5 +3,5 @@ body{background-image: url(https://images.unsplash.com/photo-1614680376573-df348
 p{font-size: 11pt; color: whitesmoke; text-decoration-color: whitesmoke; }
 th{color: whitesmoke; font-size: 15pt;}
 h1,h2{color: whitesmoke; }
-td,th,tr{border:1px solid white; Border-collapse: collapse;}
+td,th,tr{border:1px solid white; Border-collapse: collapse; text-align: center; align: center;}
 li{color: whitesmoke;}
