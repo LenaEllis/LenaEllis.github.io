@@ -13,7 +13,13 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 }
-
+nav li{ 
+	background-color: #FF6600;
+	border-radius: 1em;
+	list-style-type: none;
+	margin: 0.3em;
+	padding: 0.4em;
+}
 /* Style for the header specifies top margin, background color, rounded corners, and center align content */
 header {
 	font-family: Verdana, Arial, serif;
