@@ -8,6 +8,11 @@ body {
 /* Styles for Mobile Layout */
 
 /* Style for the container centers the page and specifies the width */
+@media screen and (max-width: 500px){}
+img{
+	max-height: 300px;
+	max-width: 100%;
+}
 #container {
 	width: 100%;
 	margin-left: auto;
