@@ -9,6 +9,7 @@ body {
 
 /* Style for the container centers the page and specifies the width */
 @media screen and (max-width: 500px){}
+
 img{
 	max-height: 300px;
 	max-width: 100%;
@@ -22,8 +23,9 @@ nav li{
 	background-color: #FF6600;
 	border-radius: 1em;
 	list-style-type: none;
-	margin: 0.3em;
-	padding: 0.4em;
+	margin: 0.6em;
+	padding: 0.5em;
+	font-size: 20px;
 }
 nav li a{ 
 	color: #FFFFFF;
