@@ -8,7 +8,7 @@ body {
 /* Styles for Mobile Layout */
 
 /* Style for the container centers the page and specifies the width */
-@media screen and (max-width: 500px){}
+@media screen and (max-width: 600px){}
 
 img{
 	max-height: 300px;
