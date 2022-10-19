@@ -22,6 +22,7 @@ nav li {
 	padding: 0.5em;
 	display: inline;
 }
+* { max-width: 100%;}
 nav li a { 
 	color: #fff; 
 	text-decoration: none;
