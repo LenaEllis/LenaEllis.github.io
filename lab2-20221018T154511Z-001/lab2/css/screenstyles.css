@@ -1,6 +1,17 @@
 /* Style sheet created by: Student's First Name Student's Last Name, Today's Date */
 
 /* Style for body specifies a background color */
+nav li a:hover{ 
+	font-size: 1.5em;
+	color: #ccffcc;
+}
+nav li a:link { 
+	color: #ffffff;
+}
+.desktop { 
+	display: inline;
+	min-width: 769px;
+}
 body {
 	background-color: #E0F0FF;
 }
@@ -21,11 +32,16 @@ nav li {
 	margin: 0.4em; 
 	padding: 0.5em;
 	display: inline;
+	width: 18%;
+	float: left;
 }
 * { max-width: 100%;}
 nav li a { 
 	color: #fff; 
 	text-decoration: none;
+	font-size: 1.25em;
+	padding: 0.7em;
+	display: inline-block;
 }
 @media screen and (max-width: 600px) { 
 	nav li { 
@@ -33,6 +49,32 @@ nav li a {
 		margin: 0.3em; 
 		padding: 0.4em;
 		font-size: 16px;
+		white-space: nowrap;
+		width: 20%;
+		border-radius: 0;
+		margin-right: 0;
+		margin-left: 0;
+	}
+	main { 
+		margin-top: 1em;
+		box-shadow: 1em 1em 1em #331400; 
+		border-radius: 1em;
+		border: none;
+	}
+	nav li a { font-size: 1.25em; 
+	padding: 0.7em;
+	display: inline-block;
+	}
+	nav ul { 
+		padding-right: 0.50%;
+		padding-left: 0.50%;
+		margin: 0;
+	}
+	img { 
+		width: 60%;
+	}
+	#container { 
+		width: 80%;
 	}
 }
 .mobile { 
