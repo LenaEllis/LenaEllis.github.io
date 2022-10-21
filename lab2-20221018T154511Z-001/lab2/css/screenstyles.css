@@ -15,6 +15,7 @@ nav li a:link {
 }
 .desktop { 
 	display: inline;
+	display: none;
 }
 body {
 	background-color: #E0F0FF;
@@ -41,9 +42,6 @@ nav li {
 } 
 main { 
 	clear: left;
-}
-.mobile {
-	display: none;
 }
 }
 * { max-width: 100%;}
