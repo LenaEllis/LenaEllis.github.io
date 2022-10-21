@@ -42,6 +42,9 @@ nav li {
 main { 
 	clear: left;
 }
+.mobile { 
+	display: none;
+}
 }
 * { max-width: 100%;}
 nav li a { 
@@ -85,12 +88,6 @@ nav li a {
 	#container { 
 		width: 80%;
 	}
-
-.mobile { 
-	display: inline;
-	width: 100%;
-	display: none;
-}
 }
 /* Style for the container centers the page and specifies the width */
 #container {
