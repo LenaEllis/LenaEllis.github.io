@@ -15,6 +15,7 @@ nav li a:link {
 }
 .desktop { 
 	display: inline;
+	display: none;
 }
 body {
 	background-color: #E0F0FF;
@@ -86,6 +87,7 @@ nav li a {
 .mobile { 
 	display: inline;
 	width: 100%;
+	display: none;
 }
 /* Style for the container centers the page and specifies the width */
 #container {
