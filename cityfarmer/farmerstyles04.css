@@ -3,3 +3,7 @@ body {
     background-color: #B8D1EB;
     color: #000000;
 }
+#outerwrapper { 
+    margin: 0 auto 0 auto; 
+    width: 70%;
+}
