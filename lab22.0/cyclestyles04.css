@@ -1,5 +1,9 @@
 body { 
     background-color: #FF9900;
-    font-style: Calibri, sans-serif; 
+    font-style: "Calibri", sans-serif; 
     color: black; 
+}
+#wrapper { 
+    margin: center; 
+    width: 80%;
 }
