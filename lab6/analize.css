@@ -133,11 +133,12 @@ nav li a:link {
 }
 
 nav li a:hover {
-	color: #FFFFFF;
+	color: #ffCCFF;
+    font-size: 1.05em;
 }
 
 nav li a:active {
-	color: #FFFFFF ;	
+	color: #9900FF;	
 }
 
 /* Style specifies border, box shadow, and margins for the main element */
