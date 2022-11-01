@@ -12,3 +12,6 @@ input {
 #gender { 
     font-weight: bolder; font-size: 12px; 
 }
+form { 
+    background-color: lightgray; 
+}
