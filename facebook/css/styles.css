@@ -9,5 +9,5 @@ input {
     font-size: 15px; width: 100px; border-radius: 5px; 
 }
 #gender { 
-    font-weight: bold; 
+    font-weight: bold; font-size: 12px; 
 }
