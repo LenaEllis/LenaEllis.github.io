@@ -22,3 +22,6 @@
     font-size: 15px; 
     font-family: "Freight Sans", "Lucida Grande", "Tohoma", "Verdana", "Arial", "Sans Serif"
 }
+#month, #day, { 
+    border-color: gray; 
+}
