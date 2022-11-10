@@ -30,4 +30,5 @@
     left: 0; 
     z-index: -1; 
     background-size: 100%; 
+    transform: translateZ(-1px) scale(1.5); 
 }
