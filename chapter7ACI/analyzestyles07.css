@@ -46,11 +46,18 @@ footer {
 	text-align: center;
 }
 article { 
-
+    margin-top: 1em; 
+    padding: 1em; 
+    font: black; 
 }
 section { 
-
+    padding: 1em; 
+    background-color: white; 
+    margin-top: 1em; 
+    color: #4e9657; 
 }
 main { 
-    
+    background-color: #4e9657; 
+    padding: 1em; 
+    display: block; 
 }
