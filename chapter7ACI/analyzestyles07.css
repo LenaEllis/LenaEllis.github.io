@@ -49,6 +49,7 @@ article {
     margin-top: 1em; 
     padding: 1em; 
     font: black; 
+    border-top: thin; 
 }
 section { 
     padding: 1em; 
@@ -60,4 +61,13 @@ main {
     background-color: #4e9657; 
     padding: 1em; 
     display: block; 
+}
+aside { 
+    margin-top: 1em; 
+    padding: 1em; 
+    font: white; 
+    font-size: 15px; 
+    text-align: center; 
+    background-color: #4e9657; 
+    border-radius: 1px; 
 }
