@@ -7,14 +7,19 @@
     <title>Prog54c</title>
 </head>
 <body>
-    <script>
-        var area = pie * radius * radius;
+    <label for="rad">Radius</label>
+    <input type="number" id="rad" name="rad"> 
+
+    <label for="circum">Circumference</label>
+    <input type="number" id="circum" name="circum"> 
+
+    <button onclick="   var area = pie * radius * radius;
         var radius = 3.712;
         var circumferance = 2 * radius;
         var pie = 3.14; 
-        document.writeln("Circumferance: " + circumferance + "</br>"); 
-        document.writeln("Radius: " + radius + "</br>"); 
-        document.writeln("Area: " + area + "</br>"); 
-    </script>
+        document.writeln('Circumferance: ' + circumferance + '</br>'); 
+        document.writeln('Radius: ' + radius + '</br>'); 
+        document.writeln('Area: ' + area + '</br>');
+    ">Calculate Area and Circumference</button>
 </body>
 </html>
