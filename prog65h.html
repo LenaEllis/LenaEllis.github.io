@@ -17,14 +17,15 @@
     <input type="number" id="pnce" name="pnce"> 
 
     <button onclick="
-        var pnds = document.getElementsById('pnds').value; 
+        var pnds = document.getElementById('pnds').value; 
         pnds = Number(pnds); 
         var shl = document.getElementById('shl').value; 
         shl = Number(shl); 
         var pnce = document.getElementById('pnce').value; 
         pnce = Number(pnce); 
         var decp = pnds + shl / 20 + pnce / 12 / 20; 
-
+        decp = decp.toFixed(2); 
+        
         alert('Decimal Pounds = ' + decp); 
     ">Convert to Decimal Pounds</button>
 </body>
