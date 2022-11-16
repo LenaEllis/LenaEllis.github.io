@@ -16,6 +16,13 @@
     <label for="pnce">Pence: </label>
     <input type="number" id="pnce" name="pnce"> 
 
-    
+    <button onclick="
+        var pnds = document.getElementsById('pnds').value; 
+        pnds = Number(pnds); 
+        var shl = document.getElementById('shl').value; 
+        shl = Number(shl); 
+        var pnce = document.getElementById('pnce').value; 
+        pnce = Number(pnce); 
+    ">Convert to Decimal Pounds</button>
 </body>
 </html>
