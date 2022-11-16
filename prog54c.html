@@ -14,9 +14,9 @@
     <input type="number" id="circum" name="circum"> 
 
     <button onclick="   
-        var area = pie * radius * radius;
         var radius = document.getElementById('rad').value; 
-        var circumferance = document.getElementById('circum').value; 
+        var area = pie * radius * radius;
+        var circumferance = 2 * radius * pie; 
         var pie = 3.14159; 
         document.writeln('Circumferance: ' + circumferance + '</br>'); 
         document.writeln('Radius: ' + radius + '</br>'); 
