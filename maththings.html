@@ -7,8 +7,25 @@
     <title>Math Things</title>
 </head>
 <body>
+    <input type="number" id="num1"> 
+    <input type="number" id="num2"> 
     <button on click="doMath();">Run Math Stuff</button> 
     <button on click="reset()">Reset</button>
     <p id="output"></p>
+
+    <script>
+        function reset() { 
+            document.getElementById("output").innerHTML = ""; 
+        }
+
+        function doMath() { 
+            var num1 = document.getElementById("num1").value; 
+            num1 = Number(num1); 
+            var num2 = document.getElementById("num2").value; 
+            num2 = Number(num2); 
+
+            var add = num1 + num2; 
+        }
+    </script>
 </body>
 </html>
