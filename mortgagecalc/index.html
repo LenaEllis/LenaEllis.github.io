@@ -10,13 +10,25 @@
     <label for="principle">Principle: </label>
     <input type="number" id="principle" name="principle"> 
 
-    <label for="intrate%">Interest Rate as %: </label>
-    <input type="number" id="intrate%" name="intrate%"> 
+    <label for="intrate">Interest Rate as %: </label>
+    <input type="number" id="intrate" name="intrate"> 
 
     <label for="numyears">Number of Years: </label>
     <input type="number" id="numyears" name="numyears"> 
 
     <label for="monthpay">Monthly Payment: </label>
     <input type="number" id="monthpay" name="monthpay"> 
+
+    <script>
+        function calc() { 
+            var principle = document.getElementById("principle").value; 
+            principle = Number(principle); 
+            var intrate = document.getElementById("intrate").value; 
+            intrate = Number(intrate); 
+            var numyears = document.getElementById("numyears").value; 
+            numyears = Number(numyears); 
+            
+        }
+    </script>
 </body>
 </html>
