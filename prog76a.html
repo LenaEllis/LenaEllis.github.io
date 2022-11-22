@@ -13,7 +13,7 @@
     <p id="out"></p>
     <script>
         function surprise() { 
-            var num = document.getElementById("num").value; 
+         var num = document.getElementById("num").value; 
         num = Number(num); 
         var p = document.getElementById("out"); 
         p.innerHTML = ""; 
@@ -23,6 +23,11 @@
             p.innerHTML += "X " + 9 + "<br/>"; 
             p.innerHTML += "_________<br/>"; 
             p.innerHTML += num9 + "<br/>"; 
+            var numbig = num9 * 12345679; 
+            p.innerHTML += num9 + "<br/>"; 
+            p.innerHTML += "X " + 12345679 + "<br/>"; 
+            p.innerHTML += "_______<br/>"; 
+            p.innerHTML += numbig + "<br/>"; 
         } else { 
             alert("Number must be between 1 and 9"); 
         }
