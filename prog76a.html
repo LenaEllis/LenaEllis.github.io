@@ -12,7 +12,8 @@
     <botton onclick="surprise();">Calculate</botton>
     <p id="out"></p>
     <script>
-        var num = document.getElementById("num").value; 
+        function surprise() { 
+            var num = document.getElementById("num").value; 
         num = Number(num); 
         var p = document.getElementById("out"); 
         p.innerHTML = ""; 
@@ -25,6 +26,8 @@
         } else { 
             alert("Number must be between 1 and 9"); 
         }
+        }
+        
     </script>
 </body>
 </html>
