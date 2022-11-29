@@ -36,7 +36,8 @@
             var b = p (1 + r / n)**n*t; 
             var noot = - m * [(1 + r / n)**n*t - 1] / (r /n); 
 
-            var out = document.getElementById('out'); 
+
+            var out = document.getElementById('out').innerHTML = msg; 
             document.getElementById('out').innerHTML = 'The remaining money of what you have is:' + b - noot.tofixed2; 
         }
         function reset() { 
