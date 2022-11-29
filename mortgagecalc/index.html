@@ -24,7 +24,7 @@
 
     <script>
         function calculate() { 
-         var p = document.getElementById('p').value; 
+            var p = document.getElementById('p').value; 
             p = Number(p); 
             var r = document.getElementById('r').value; 
             r = Number(r); 
@@ -35,10 +35,9 @@
             var n = 12;  
             var b = p (1 + r / n)**n*t; 
             var noot = - m * [(1 + r / n)**n*t - 1] / (r /n);
-            document.getElementById('p').innerHTML = p; 
-            document.getElementById('r').innerHTML = r; 
-            document.getElementById('t').innerHTML = t; 
-            document.getElementById('m').innerHTML = m; 
+            
+            var out = document.getElementById('out'); 
+            alert('The remaining money of what you have is:' + b - noot); 
         }
         function reset() { 
             document.getElementById('p').innerHTML = ""; 
