@@ -34,11 +34,10 @@
             m = Number(m);
             var n = 12;  
             var b = p (1 + r / n)**n*t; 
-            var noot = - m * [(1 + r / n)**n*t - 1] / (r /n);
-            var fin = b - noot; 
-            
+            var noot = - m * [(1 + r / n)**n*t - 1] / (r /n); 
+
             var out = document.getElementById('out'); 
-            alert('The remaining money of what you have is:' + b - noot.tofixed2); 
+            document.getElementById('out').innerHTML = 'The remaining money of what you have is:' + b - noot.tofixed2; 
         }
         function reset() { 
             document.getElementById('p').innerHTML = ""; 
