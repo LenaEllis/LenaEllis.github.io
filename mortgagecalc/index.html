@@ -19,7 +19,8 @@
     <label for="m">Monthly Payment: </label>
     <input type="number" id="m" name="m"><br>
 
-    <botton onclick="calculate">Calculate</botton>
+    <botton onclick="calculate()">Calculate</botton>
+    <botton onclick="reset()">Reset</botton>
     <script>
         function calculate() { 
          var p = document.getElementById('p').value; 
@@ -37,6 +38,12 @@
             document.getElementById('r').innerHTML; 
             document.getElementById('t').innerHTML; 
             document.getElementById('m').innerHTML;   
+        }
+        function reset() { 
+            document.getElementById('p').innerHTML = ""; 
+            document.getElementById('r').innerHTML = ""; 
+            document.getElementById('t').innerHTML = ""; 
+            document.getElementById('m').innerHTML = ""; 
         }
     </script>
         
