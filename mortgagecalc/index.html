@@ -38,9 +38,8 @@
 
             var fin = b - noot; 
             fin = fin.tofixed(2); 
-            
-            var out = document.getElementById('out'); 
-            document.getElementById('out').innerHTML = msg('The remaining money of what you have is:' + fin);
+            var out = msg('The remaining money of what you have is:' + fin);
+            document.getElementById('out').innerHTML = out; 
         }
         function reset() { 
             document.getElementById('p').value = ""; 
