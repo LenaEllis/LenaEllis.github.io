@@ -11,12 +11,9 @@
             var n = 12;  
             var b = p (1 + r / n)**n*t; 
             var noot = - m * [(1 + r / n)**n*t - 1] / (r /n); 
-
-            var fin = b - noot; 
-            fin = fin.toFixed(2);  
             
-            var out = msg('The remaining money of what you have is:' + fin);
-            document.getElementById('out').innerHTML = out; 
+            out= document.getElementById('out')
+            out.innerHTML = "What you have left over for your mortgage balance is $ " + (b - noot).toFixed(2); 
         }
         function reset() { 
             document.getElementById('p').value = ""; 
