@@ -1,4 +1,21 @@
-p { 
+* { 
+    background-color: rosybrown; 
     text-align: center; 
-    
+}
+p { 
+    text-decoration: underline; 
+}
+input { 
+    background-color: gray; 
+    font-size: 15px; 
+    border-style: round; 
+}
+label { 
+    color: brown;  
+    font-weight: bold; 
+}
+button { 
+    background-color: darkolivegreen;
+    font-weight: bold; 
+    font-size: 15px; 
 }
