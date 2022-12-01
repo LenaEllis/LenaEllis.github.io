@@ -13,7 +13,7 @@
             var noot = - m * [(1 + r / n)**n*t - 1] / (r /n); 
 
             var fin = b - noot; 
-            fin = fin.tofixed(2);  
+            fin = fin.toFixed(2);  
             
             var out = msg('The remaining money of what you have is:' + fin);
             document.getElementById('out').innerHTML = out; 
