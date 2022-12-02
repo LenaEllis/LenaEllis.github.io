@@ -2,16 +2,19 @@
     background-color: rosybrown; 
     text-align: center; 
 }
-p { 
+h1 { 
+    font-family: 'Trebuchet MS'; 
     text-decoration: underline; 
 }
 input { 
+    font-family: 'Gill Sans'; 
     background-color: gray; 
     font-size: 15px; 
     border-style: round; 
 }
 label { 
-    color: brown;  
+    font-family: 'lucida Sans'; 
+    color:brown;  
     font-weight: bold; 
 }
 button { 
