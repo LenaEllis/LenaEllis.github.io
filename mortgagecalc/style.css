@@ -13,6 +13,7 @@ input {
     border-style: round; 
 }
 label { 
+    margin: 10px; 
     font-family: 'lucida Sans'; 
     color:brown;  
     font-weight: bold; 
