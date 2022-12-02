@@ -10,7 +10,7 @@
             m = Number(m);
             var n = 12;  
             var b = p * (1 + r / n)**(n*t); 
-            var noot =  m * (1 + r / n)**(n*t) - 1 / (r / n); 
+            var noot =  (m * (1 + r / n)**(n*t)) - 1 / (r / n); 
             
             var out= document.getElementById('out'); 
             out.innerHTML = "What you have left over for your mortgage balance is $ " + (b - noot).toFixed(2); 
