@@ -20,5 +20,6 @@
             document.getElementById('r').value = ""; 
             document.getElementById('t').value = ""; 
             document.getElementById('m').value = ""; 
+            document.getElementById('out').value = ""; 
         }
    
