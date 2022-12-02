@@ -3,7 +3,7 @@
             var p = document.getElementById('p').value; 
             p = Number(p); 
             var r = document.getElementById('r').value; 
-            r = Number(r); 
+            r = Number(r / 100); 
             var t = document.getElementById('t').value; 
             t = Number(t); 
             var m = document.getElementById('m').value; 
