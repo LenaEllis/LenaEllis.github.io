@@ -10,9 +10,6 @@
     <label for="rad">Radius: </label>
     <input type="number" id="rad" name="rad"> 
 
-    <label for="circum">Circumference: </label>
-    <input type="number" id="circum" name="circum"> 
-
     <button onclick="reset()">Clear</button> 
     <button onclick="calc()">Calculate</button>
 
@@ -21,8 +18,7 @@
     <script>
         var pi = 3.14159; 
         function reset() { 
-            document.getElementById("out").innerHTML = ""; 
-            document.getElementById("circum").value = ""; 
+            document.getElementById("out").innerHTML = "";  
             document.getElementById("rad").value = ""; 
         }
         function getArea(rad, pi) { 
