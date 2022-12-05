@@ -31,6 +31,8 @@
             var len = Number(document.getElementById("len").value); 
             var wid = Number(document.getElementById("wid").value); 
             var area = getArea(len, wid); 
+            var perim = getPerim(len, wid); 
+            document.getElementById("out").innerHTML = "Area: " + area + "<br/>Perimeter: " + perim; 
         }
     </script>
 </body>
