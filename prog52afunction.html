@@ -14,10 +14,16 @@
     <input type="number" id="wid" name="wid" placeholder="0" required> 
 
     <button onclick="calc()">Calculate</button>
+    <button onclick="reset()">Clear</button>
 
     <p id="out" style="background-color: aqua; padding: 15px;"></p>
 
     <script>
+        function reset() { 
+            document.getElementById("len").value = ""; 
+            document.getElementById("wid").value = ""; 
+            document.getElementById("out").innerHTML = ""; 
+        }
         function getArea(length, width) { 
             return length * width; 
         }
