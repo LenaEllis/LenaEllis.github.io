@@ -19,6 +19,7 @@
     <p id="out"></p>
 
     <script>
+        var pi = 3.14159; 
         function reset() { 
             document.getElementById("out").innerHTML = ""; 
             document.getElementById("circum").value = ""; 
@@ -27,9 +28,14 @@
         function calc() { 
             var circum = Number(document.getElementById("circum").value); 
             var rad = Number(document.getElementById("rad").value); 
-            
         }
-        var pi = 3.14159; 
+        function getArea(rad, pi) { 
+            return rad * rad * pi; 
+        }
+        function getCircumference(pi, rad) { 
+            return 2 * rad * pi; 
+        }
+        
     </script>
 </body>
 </html>
