@@ -28,11 +28,10 @@
             return 2 * pi * rad; 
         }
         function calc() { 
-            var circum = Number(document.getElementById("circum").value); 
             var rad = Number(document.getElementById("rad").value); 
             var area = getArea(rad, pi); 
             var circum = getCircumference(pi, rad); 
-            document.getElementById("out").innerHTML = "Area: " + area + "<br/>Circumference: " + circumference; 
+            document.getElementById("out").innerHTML = "Area: " + area + "<br/>Circumference: " + circum; 
         }
     </script>
 </body>
