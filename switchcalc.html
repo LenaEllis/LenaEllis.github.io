@@ -27,6 +27,30 @@
             var num2 = Number(document.getElementById("num2").value); 
             var op = document.getElementById("operand").value; 
             var result = 0; 
+
+            switch(op) { 
+                case "+": 
+                    result = num1 + num2; 
+                    break; 
+                case "-": 
+                    result = num1 - num2; 
+                    break; 
+                case "*": 
+                    result = num1 * num2; 
+                    break; 
+                case "/": 
+                    result = num1 / num2; 
+                    break; 
+                case "%": 
+                    result = num1 % num2; 
+                    break; 
+                case "**": 
+                    result = num1 ** num2; 
+                    break; 
+                default: 
+                    document.getElementById("output").innerHTML = "Invalid Option Selected"; 
+                return; 
+            }
         }
     </script>
 </body>
