@@ -7,6 +7,18 @@
     <title>Switch Calculator</title>
 </head>
 <body>
-    
+    <input type="number" id="num1" name="num1"> 
+    <select id="operand" name="operand"> 
+        <option disables selected value>-- select an option --</option>
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+        <option value="%">%</option>
+        <option value="**">**</option>
+    </select>
+    <input type="number" id="num2" name="num2"> 
+    <button onclick="run()">Calculate</button>
+    <p id="output" style="background: palegreen;"></p>
 </body>
 </html>
