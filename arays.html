@@ -25,7 +25,10 @@
         }
         msg += "</ul>"; 
         document.write(msg); 
-
+        
+        //add car to end of list
+        cars.push("Pontiac"); 
+        //print list again with forEach forhand
         var msg2 = "<ol>"; 
         function doli(car) { 
             msg2 += "<li>" + car + "</li>"; 
