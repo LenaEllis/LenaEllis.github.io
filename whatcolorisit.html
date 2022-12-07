@@ -34,7 +34,11 @@
             var m = ("0" + date.getMinutes()).slice(-2); 
             var h = ("0" + date.getHours()).slice(-2); 
             var clr = "#" + h + m + s; 
+            document.getElementById("clock").innerHTML = h + ":" + m + ":" + s; 
+            document.getElementById("bdy").style.background = clr; 
+            document.getElementById("hexcode").innerHTML = clr; 
         }
+        setInterval(updateTime, 1000); 
     </script>
 </body>
 </html>
