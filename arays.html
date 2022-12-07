@@ -18,6 +18,14 @@
         //display
         document.getElementById("out").innerHTML = cars; 
 
+        //print one at time
+        var msg = "<ul>"; 
+        for(var lcv = 0; icv < cars.length; lcv++) { 
+            msg += "<li>" + cars[lcv] + "</li>"; 
+        }
+        msg += "</ul>"; 
+        document.write(msg); 
+
     </script>
 </body>
 </html>
