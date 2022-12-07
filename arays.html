@@ -7,6 +7,7 @@
     <title>Eray Notes</title>
 </head>
 <body>
+    <p id="out"></p>
     <script>
         var cars = ["Saab" , "Volvo" , "BMW"]; 
         //add
@@ -14,6 +15,9 @@
         cars [4] = "Subaru"; 
         //change
         cars[0] = "Chevrolet"; 
+        //display
+        document.getElementById("out").innerHTML = cars; 
+
     </script>
 </body>
 </html>
