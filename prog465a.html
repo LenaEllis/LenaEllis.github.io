@@ -31,6 +31,11 @@
                 ans[r][c] = Math.max(mat1[r][c], mat2[r][c]); 
             }
         }
+        for (var r = 0; r < mat1.length; r++) { 
+            for (var c = 0; c < mat1[0].length; c++) {
+            document.write(ans[r][c] + " "); 
+        }
+        }
     </script>
 </body>
 </html>
