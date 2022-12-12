@@ -12,11 +12,15 @@
             name: "Trivago", 
             rooms: 420, 
             booked: 69, 
-            checkAvaiable: function() { 
+            checkAvailable: function() { 
                 return this.room - this.booked; 
             }
         }; 
-        document.write(hotel); 
+        document.write(hotel["name"] + "<br/>"); 
+        document.write(hotel.name + "<br/>"); 
+        document.write("Rooms: " + hotel.rooms + "<br/>"); 
+        document.write("Avabilable: " + hotel.checkAvailable() + "<br/>"); 
+         
     </script>
 </body>
 </html>
