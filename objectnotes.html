@@ -25,6 +25,20 @@
         var hotel2 = new Hotel("hotel2.0", 25, 5); 
         document.write("Name: " + hotel2.name + "<br/>"); 
         document.write("Rooms Available: " + hotel2.checkAvailable() + "<br/>"); 
+
+        //class notation//
+        class Hotel2 {  
+            constructor(name, rooms, booked) { 
+                this.name = name; 
+                this.rooms = rooms; 
+                this.booked = booked; 
+            }
+            checkAvailable() { 
+                return this.rooms - this.booked; 
+            }
+        }
+
+        //class = collection of variables / functions//
     </script>
 </body>
 </html>
