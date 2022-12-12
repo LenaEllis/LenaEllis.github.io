@@ -7,6 +7,30 @@
     <title>Prog52a with Classes</title>
 </head>
 <body>
-    
+    <script>
+        function randInt(max, min) { 
+            return Math.round(Math.random() * max + min); 
+        }
+        class Shape { 
+            constructor(len, wid) { 
+                this.length = len; 
+                this.width = wid; 
+                this.area = 0; 
+                this.perim = 0; 
+            }
+            //setter function//
+            calc() { 
+                this.area = this.length * this.width; 
+                this.perim = this.length + 2 * this.width; 
+            }
+            //getter func//
+            getArea() { 
+                return this.area; 
+            }
+            getPerim() { 
+                return this.perim; 
+            }
+        }
+    </script>
 </body>
 </html>
