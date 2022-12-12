@@ -12,6 +12,7 @@
             return Math.round(Math.random() * max + min); 
         }
         class Shape { 
+            //set up class vars//
             constructor(len, wid) { 
                 this.length = len; 
                 this.width = wid; 
@@ -31,6 +32,12 @@
                 return this.perim; 
             }
         }
+        var len = randInt(1, 20); 
+        var wid = randInt(1, 20); 
+        var shape = new Shape(len, wid); 
+        shape.calc(); 
+        document.write("Area: " + shape.getArea() + "<br/>"); 
+        document.write("Perimeter: " + shape.getPerim() + "<br/>"); 
     </script>
 </body>
 </html>
