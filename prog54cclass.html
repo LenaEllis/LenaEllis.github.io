@@ -10,6 +10,7 @@
     <label for="rad">Radius: </label>
     <input type="number" id="rad" name="rad">
     <button onclick="doMath();">Calculate</button>
+    <p id="out"> 
     <script>
         class Circle { 
             constructor(radius) { 
@@ -22,11 +23,17 @@
 
             }
             getArea() { 
-
+                return this.area; 
             }
             getCircumference() { 
-                
+                return this.circumference; 
             }
+        }
+        function doMath() { 
+            var rad = Number(document.getElementById("rad").value); 
+            var circ = new Circle(rad); 
+            circ.calc(); 
+            document.getElementById("out").innerHTML = "Area: " + calc.getArea() + "<br/> Circumference: " + calc.getCircumference() + "<br/>"; 
         }
     </script>
 </body>
