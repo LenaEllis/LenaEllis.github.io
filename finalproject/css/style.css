@@ -22,22 +22,26 @@ p{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
 }
 
-#send{ 
+#send, text { 
     background-color: lightcyan; 
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     border-color: black; 
+    border-width: 2px; 
 }
 
 #tbody{ 
     background-color: lightcyan; 
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     border-color: black; 
+    border-width: 2px; 
 }
 .form { 
     background-color: lightseagreen; 
     border-color: black; 
+    border-width:  10px; 
 }
 table { 
     background-color: lightseagreen; 
     border-color: black; 
+    
 }
