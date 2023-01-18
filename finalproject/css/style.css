@@ -29,6 +29,7 @@ p{
     border-width: 2px; 
     color: black; 
     text-decoration: bold; 
+    width: 100px; 
 }
 
 #tbody{ 
