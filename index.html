@@ -1,53 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta lang="en">
-    <meta viewport="width=device-width, initial-scale=1">
-    <title>Title</title>
-    <!--<link rel="stylesheet" href="css/style.css">-->
-    <!--<source src="js/script.js" defer>-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/style.css"> 
 </head>
-<style>
-    h1,h2,h3 {
-        font-family: Helvetica; 
-    }
-    p { 
-        font-family: Arial; 
-    }
-    a {
-        color: green
-        
-    }
-    #maindiv {
-        background-color: teal
-    }
-
-</style>
 <body>
-    <div id="maindiv">
- <h1> This is my First webpage! </h1>
-<p> Hello, world!</p>
-<h2> This is a sub heading!</h2>
-<p> this is some extra text! </p>
-</div>
-<div>
-<h1>Class Files</h1>
-<ul>
-    <li><a href="bikeshop.html">bikeshop</a></li>
-    <li><a href="neew">eggrecipe</a></li>
-    <li><a href="gardenplate.html">gardenplate</a></li>
-    <li><p>cityfarmer</p>
-    
-
-    <ul>
-        <li><a href="cityfarmer/cityfarmer.html">cityfarmer</a></li>
-        <li><a href="cityfarmer/cityfarmer02.html">cityfarmer02</a></li>
-
-
-    </ul></li>
-</ul>
-<a href="https://github.com/LenaEllis/LenaEllis.github.io">github</a>
-</div>
+    <nav>
+        <ul>
+            <li> <a href="about.html">About</a>&nbsp;</li>
+            <li> <a href="projects.html">Portfolio</a>&nbsp;</li>
+        </ul>
+    </nav>
+    <h1>Welcome to my business!</h1><br/>
+    <h2>Info: "Home" is just a little bit about myself. "About" is what I'm trying to do for you. "Portfolio" is work I've done for you to consider working with me.</h2><br/>
+    <h2>A Little About Myself</h2><br/>
+    <p>Hi, I'm Lena! I want to be a developer someday and this seems like a good way to start!
+        I love video games and play them whenever I have any down time. 
+        I can get distracted when I'm working, but that's part of my process! You have to have a little fun when you're working right? 
+        I'm a procrastinator, but stuff you give me will always be done by the deadline given. 
+    </p><br/>
+    <h2>Hobbies and Insterests</h2><br/>
+    <p>As said before, video games is one of main hobbies. I tend to hyperfixate on one game for at least a week. 
+        My favorite type of games are story rich games. I find that they give me the same feeling of reading a book. 
+        Singing is also a hobbie. I sing for class, but I also sing for fun! I just love music in general!
+        I love creative writing! I find it hard to come up with ideas unless an idea really grabs my interest, but I'll still write anything given.
+    </p><br/>
+    <h2>What I Can Offer You</h2>
+    <p>You might be thinking right now, "Yeah, this is fine and dandy, but what am I getting out of you?" Well, allow me to tell you!
+        Everyone can be inspired and insperation is a beatiful thing, but sometimes, people don't know what to do with it. Well, that's what I'm here for!
+        I want to see your insperation come to life, so with some help from you of telling me what you would like to see, I'll write your insperation in the form of a story.
+        It can be however long you desire it to be. 
+        Have a change you want in the middle of writing? No problem! Just tell me the change and where you want it to go in your story, and it will be changed.
+    </p><br/>
+    <h2>Contact me if you are interested!</h2><br/>
+    <form action="#" method="post">
+        <div id="fdiv"> 
+            <input type="text" name="firstname" id="firstname" placeholder="First Name"><br/>
+            <input type="text" name="lastname" id="lastname" placeholder="Last Name"><br/>
+            <input type="text" name="email" id="email" placeholder="Please enter Email" required><br/>
+            <textarea name="tbody" placeholder="Want to send a message to me? Please write here:" id="tbody" required></textarea> <br/> 
+            <input type="submit" value="Send" id="send">
+    </form>
 </body>
 </html>
